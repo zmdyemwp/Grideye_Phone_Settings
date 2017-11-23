@@ -1,0 +1,74 @@
+
+apply plugin: 'com.android.model.application'
+//apply plugin: 'com.android.application'
+model {
+    android {
+        //compileSdkVersion rootProject.ext.compileSdkVersion
+        //buildToolsVersion rootProject.ext.buildToolsVersion
+        compileSdkVersion 23
+        buildToolsVersion "26.0.0"
+
+        defaultConfig {
+            applicationId "com.evenwell.grideye"
+            minSdkVersion.apiLevel 21
+            targetSdkVersion.apiLevel 23
+            //minSdkVersion 21
+            //targetSdkVersion 23
+            versionCode 1
+            versionName "1.0"
+            //versionCode 6001001
+            //versionName "6.0010.01"
+            buildConfigFields {
+                create() {
+                    type "int"
+                    name "VALUE"
+                    value "1"
+                }
+            }
+        }
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles.add(file("proguard-rules.pro"))
+                ndk {
+                    debuggable true
+                }
+            }
+        }
+        ndk {
+            moduleName "grideye_jni"
+            CFlags.add("-std=c99")
+
+            //toolchain "clang"
+            // Note that CFlags has a capital C, which is inconsistent with
+            // the naming convention of other properties.  This is a
+            // technical limitation that will be resolved
+            ldLibs.add("log")
+            stl "stlport_static"
+        }
+
+    }
+}
+//dependencies {
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    testCompile 'junit:junit:4.12'
+//    compile 'com.android.support:appcompat-v7:23.3.0'
+//    compile project(':fusionnetlib')
+//    compile 'com.android.support:design:23.3.0'
+//}
+
+dependencies {
+
+    //compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile files('libs/guava-18.0.jar')
+    compile project(':fusionnetlib')
+    //compile files('libs/commons-net-1.4.1.jar')
+    compile files('libs/commons-net-3.6.jar')
+    compile files('libs/zip4j_1.3.2.jar')
+}
+
+

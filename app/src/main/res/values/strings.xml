@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">GridEye</string>
+    <string translatable="false" name="action_settings">Settings</string>
+    <string translatable="false" name="ble_not_supported">BLE is not supported</string>
+    <string translatable="false" name="label_data">Data:</string>
+    <string translatable="false" name="label_device_address">Device address:</string>
+    <string translatable="false" name="ble_state">BLE State:</string>
+    <string translatable="false" name="log_state">Log State:</string>
+    <string translatable="false" name="detect_state">Detect State:</string>
+    <string translatable="false" name="no_data">No data</string>
+    <string translatable="false" name="connected">Connected</string>
+    <string translatable="false" name="disconnected">Disconnected</string>
+    <string translatable="false" name="title_devices">BLE Device Scan</string>
+    <string translatable="false" name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string translatable="false" name="unknown_device">Unknown device</string>
+    <string translatable="false" name="unknown_characteristic">Unknown characteristic</string>
+    <string translatable="false" name="unknown_service">Unknown service</string>
+
+
+    <!--howardjhli-->
+
+    <string translatable="false" name="is_human_bed">Is Human In Bed:</string>
+    <string translatable="false" name="human_area">Human Area:</string>
+    <string translatable="false" name="detect_num">Detect Num:</string>
+    <string translatable="false" name="detect_human_num">Human Num:</string>
+    <string translatable="false" name="min_x">MinX:</string>
+    <string translatable="false" name="min_y">MinY:</string>
+    <string translatable="false" name="max_x">MaxX:</string>
+    <string translatable="false" name="max_y">MaxY:</string>
+    <string translatable="false" name="diff_temp_thresh">Diff Temp Thresh:</string>
+    <string translatable="false" name="labeling_thresh">Labeling Thresh:</string>
+    <string translatable="false" name="human_thresh">Human Thresh:</string>
+    <string translatable="false" name="back_temp_state">BackTemp Ready:</string>
+    <string translatable="false" name="center_x">Center X:</string>
+    <string translatable="false" name="center_y">Center Y:</string>
+    <string translatable="false" name="detect_time">Detect Time:</string>
+    <string translatable="false" name="detect_status">Status:</string>
+    <string translatable="false" name="boundary_thresh">Boundary Thresh:</string>
+    <string translatable="false" name="filter">Filter:</string>
+    <string translatable="false" name="filter_frame">Filter Frame:</string>
+    <string translatable="false" name="set_value">Set Value:</string>
+    <string translatable="false" name="detail_status">Detail Status:</string>
+    <string translatable="false" name="remove_file">Remove</string>
+    <string translatable="false" name="insert_step">Insert Step</string>
+    <string translatable="false" name="hide_gridview">Hide</string>
+    <string translatable="false" name="human_exist">Human here:</string>
+    <string translatable="false" name="human_num">Number of human:</string>
+    <string translatable="false" name="human_quadrant">Human quadrant:</string>
+    <string translatable="false" name="config">Config</string>
+    <string translatable="false" name="reset">RESET</string>
+    <string translatable="false" name="bed_leftboard_value">Left board Value</string>
+    <string translatable="false" name="bed_rightboard_value">Right board Value</string>
+    <string translatable="false" name="mode">Mode</string>
+
+    <string translatable="false" name="empty">Empty</string>
+    <string translatable="false" name="normal">Normal</string>
+    <string translatable="false" name="prealarm">Ｗarning</string>
+    <string translatable="false" name="alarm">Alarm</string>
+    <string translatable="false" name="bed_mode">BED</string>
+    <string translatable="false" name="bath_mode">BATH</string>
+
+    <string translatable="false" name="standby">Standby</string>
+    <string translatable="false" name="monitor">Monitor</string>
+    <string translatable="false" name="safe">Safe</string>
+    <string translatable="false" name="alert">Alert</string>
+
+    <string translatable="false" name="yes">YES</string>
+    <string translatable="false" name="no">NO</string>
+    <string translatable="false" name="enabled">Enabled</string>
+    <string translatable="false" name="disabled">Disabled</string>
+    <string translatable="false" name="send">SEND</string>
+
+    <!-- detail status string -->
+    <string translatable="false" name="human_in">有人進入畫面</string>
+    <string translatable="false" name="human_out">有人走出畫面</string>
+    <string translatable="false" name="human_in_bed_board">有人在床沿：準備上床</string>
+    <string translatable="false" name="human_in_bed">有人在床上</string>
+    <string translatable="false" name="human_out_bed_board">有人在床沿：準備下床</string>
+    <string translatable="false" name="human_out_bed">有人下床了</string>
+    <string translatable="false" name="human_in_care">有人進入畫面：進行看護</string>
+    <string translatable="false" name="human_out_care">有人離開畫面：看護離開</string>
+    <string translatable="false" name="human_head">床上有人有熱源</string>
+    <string translatable="false" name="human_no_head">床上有人無熱源</string>
+    <string translatable="false" name="no_human">無人</string>
+    <!--end howardjhli-->
+
+    <!-- Menu items -->
+    <string translatable="false" name="menu_connect">Connect</string>
+    <string translatable="false" name="menu_disconnect">Disconnect</string>
+    <string translatable="false" name="menu_scan">Scan</string>
+    <string translatable="false" name="menu_stop">Stop</string>
+    <string translatable="false" name="max_temperature">Max Temp:</string>
+    <string translatable="false" name="min_temperature">Min Temp:</string>
+
+
+    <string translatable="false" name="notification_title">notification title</string>
+    <string translatable="false" name="notification_text">notification text</string>
+
+
+
+    <string name="str_service_state">is application Running</string>
+    <string name="str_service_running">Service running</string>
+    <string name="str_feedback">Send feedback</string>
+    <string name="str_message_err">Error receiving message</string>
+    <string name="str_message_expired">No message</string>
+    <string name="str_message_received"> Area need help!</string>
+    <string name="str_feedback_confirm">Feedback confirmed</string>
+    <string name="str_filter_checkbox_label">enable feedback</string>
+    <string name="str_bt_close_service_msg">Bluetooth disable will result application not working properly. Please enable Bluetooth when using application.</string>
+    <string name="str_bt_on">ON</string>
+    <string name="str_bt_off">OFF</string>
+    <string name="str_bt_description">Receive message</string>
+    <string name="str_bt_error_description">�������Ť����`�A�Ф�ʭ����Ť��A�i��ާ@</string>
+
+
+</resources>

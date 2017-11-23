@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grideye</string>
+    <string name="str_service_state">is application Running</string>
+    <string name="str_service_running">程式運行中</string>
+    <string name="str_feedback">Send feedback</string>
+    <string name="str_message_err">Error receiving message</string>
+    <string name="str_message_expired">無訊息</string>
+    <string name="str_message_received"> 區呼叫!</string>
+    <string name="str_feedback_confirm">Feedback confirmed</string>
+    <string name="str_filter_checkbox_label">enable feedback</string>
+    <string name="str_bt_close_service_msg">警告:藍牙關閉將導致呼叫系統無法正常運作，本程式將關閉。若需使用，請重新開啟藍牙與本程式。 </string>
+    <string name="str_bt_on">開</string>
+    <string name="str_bt_off">關</string>
+    <string name="str_bt_description">接收訊息</string>
+    <string name="str_bt_error_description">偵測到藍牙異常，請手動重啟藍牙再進行操作</string>
+</resources>
